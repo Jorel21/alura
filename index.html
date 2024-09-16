@@ -1,11 +1,90 @@
-<body> 
-    <header>ALURAMUSIC</header>
+index.html
 
 
-<h1>Bala No Alvo | Novatroop | Fushiguro Toji(Jujutsu Kaisen)</h1>
-<p>#Toji Fushiguro</p>
-
-<iframe width="910" height="512" src="https://www.youtube.com/embed/Hd300YfmHc8" title="Púrpura Imensidão | Novatroop | Satoru Gojo (Jujutsu Kaisen)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>O mago implacavel</title>
+</head>
 <body>
-    
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>>Dia da seleção de magos
+
+                -Tenho que escolher entre dois dos elementos primarios, qual seria a melhor opção?</p>
+            <button class="btn-proximo" data-proximo="1">Fogo</button>
+            <button class="btn-proximo" data-proximo="2">Água</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p> Com isso eu posso conseguir vira um mago bastante poderoso.
+                 Meu primeiro desafio sera enfrentar um golem de água;</p>
+            <button class="btn-proximo" data-proximo="3">Usar bola de fogo</button>
+            <button class="btn-proximo" data-proximo="4">Correr</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p> Magia de água e belissima e tambem muito forte, mas o que torna ela mais forte são suas ramificações.
+                Qual sera a melhor;</p>
+            <button class="btn-proximo" data-proximo="5">Gelo</button>
+            <button class="btn-proximo" data-proximo="6">Sangue</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>A mais bela e assutadora de todas, agora preciso de mais força e sei exatamente onde buscar essa força;</p>
+            <button class="btn-proximo" data-proximo="7">Castelo do Rei</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p> É talvez a magia não seja meu forte. </p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            </p> PODEROSA, no entando assutadora tenho que controla-la melhor; </p>
+            <button class="btn-proximo" data-proximo="7">torre de magias antigas</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p> Consegui minha primeira vitoria, com esse desempenho fui aceito nos cavaleiros magos; </p>
+            <button class="btn-proximo" data-proximo="8">Seguir para sua consolidação</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p> Aqui onde acontecera o maior evento de magia ja visto.
+             tenho que escolher se devo melhora minha magia ainda mais ou entra em batalhas contra monstros; </p>
+            <button class="btn-proximo" data-proximo="9">Escola de magia</button>
+            <button class="btn-proximo" data-proximo="10">Guarda de magos</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p> Aqui é a fonte do conhecimento sobre a magia.
+                 com todos esses livros em mãos vou poder seguir para o topo</p>
+            <button class="btn-proximo" data-proximo="7">Castelo do rei</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p> Aqui não so irei melhora meus conhecimentos como tambem irei contribuir para sociedade de magos.
+             Devo começar pela bliblioteca </p>
+            <button class="btn-proximo" data-proximo="11">Explorar a Grande biblioteca</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Posso ajudar todas as pessoas estando aqui na linha de frente</p>
+            <button class="btn-proximo" data-proximo="12">
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt=>
+            <p> Acho que esse é o meu local </p>
+        </div>
+
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
